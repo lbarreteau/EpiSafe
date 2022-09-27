@@ -4,6 +4,7 @@
   "description": "EpiSafe test different things to check the strength of your code.",
   "main": "EpiSafe.js",
   "scripts": {
+    "initialization": "chmod 755 initialization.sh && ./initialization.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
