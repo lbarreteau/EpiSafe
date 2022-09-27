@@ -47,7 +47,7 @@ npm run initialization
 
 ## Launch EpiSafe
 ```bash
-npm run start
+npm run EpiSafe
 ```
 ## Screenshots
 
