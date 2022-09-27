@@ -2,7 +2,8 @@
   "global": {
     "nb_repository": 0,
     "username": "",
-    "password": ""
+    "password": "",
+    "first_use": true
   },
   "repository": {
   }
