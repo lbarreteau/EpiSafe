@@ -1,7 +1,9 @@
 {
-    "global": {
-        "nb_repository": 0
-    },
-    "repository": {
-    }
+  "global": {
+    "nb_repository": 0,
+    "username": "",
+    "password": ""
+  },
+  "repository": {
+  }
 }
