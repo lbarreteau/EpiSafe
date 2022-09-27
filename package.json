@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/lbarreteau/EpiSafe/issues"
   },
-  "homepage": "https://github.com/lbarreteau/EpiSafe#readme"
+  "homepage": "https://github.com/lbarreteau/EpiSafe#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
