@@ -1,0 +1,23 @@
+name: Installation
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Fetch repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Run initialization
+        run: npm run initialization
+
+      - name: Run EpiSafe
+        run: npm run EpiSafe
