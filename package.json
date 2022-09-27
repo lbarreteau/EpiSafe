@@ -1,0 +1,19 @@
+{
+  "name": "episafe",
+  "version": "1.0.0",
+  "description": "EpiSafe test different things to check the strength of your code.",
+  "main": "EpiSafe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbarreteau/EpiSafe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbarreteau/EpiSafe/issues"
+  },
+  "homepage": "https://github.com/lbarreteau/EpiSafe#readme"
+}
