@@ -1,0 +1,10 @@
+{
+  "global": {
+    "nb_repository": 0,
+    "username": "",
+    "password": "",
+    "first_use": true
+  },
+  "repository": {
+  }
+}

@@ -18,6 +18,3 @@ jobs:
 
       - name: Run initialization
         run: npm run initialization
-
-      - name: Run EpiSafe
-        run: npm run EpiSafe
