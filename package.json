@@ -4,8 +4,10 @@
   "description": "EpiSafe test different things to check the strength of your code.",
   "main": "EpiSafe.js",
   "scripts": {
-    "EpiSafe": "node EpiSafe.js",
     "initialization": "chmod 755 initialization.sh && ./initialization.sh",
+    "start": "node EpiSafe.js",
+    "EpiSafe": "node EpiSafe.js",
+    "debug": "nodemon EpiSafe.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/lbarreteau/EpiSafe#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
   }
 }
