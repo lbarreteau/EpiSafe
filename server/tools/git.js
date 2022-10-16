@@ -1,10 +1,8 @@
 const { execSync}  = require('child_process');
 const fs = require('fs');
-const repo = require('../../configs/repo');
 
 function cloneRepository (name, url) {
-    const formatUrl = url.replace('https://', 'https://' + repo.global.username + ':' + repo.global.password + '@');
-    execSync(`git clone ${formatUrl} ./repositories/${name}`);
+    execSync(`git clone ${url} ./repositories/${name}`);
 };
 
 function checkIfRepositoryExists (name) {

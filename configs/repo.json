@@ -1,10 +1,14 @@
 {
-  "global": {
-    "nb_repository": 0,
-    "username": "",
-    "password": "",
-    "first_use": true
-  },
-  "repository": {
+  "repo-0": {
+    "id": 0,
+    "name": "Luchooo",
+    "url": "https://github.com/lbarreteau/EpiSafe.git",
+    "last_test": "",
+    "last_commit": "",
+    "start": "2022-10-06",
+    "finish": "2022-10-25",
+    "compilation": false,
+    "test": true,
+    "coding_style": true
   }
 }
