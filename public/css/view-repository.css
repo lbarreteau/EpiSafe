@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+.header {
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.header h1 {
+    font-weight: 700;
+    font-size: calc(2rem + 1vw);
+}
+.header h2 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+
+
+
+.resumate {
+    display: flex;
+    margin-top: 5%;
+}
+.resumate-1 {
+    width: 15%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 5%;
+    padding: 2%;
+    float: left;
+}
+.resumate-1 h1{
+    color: #2c4fe1;
+    font-size: calc(2rem + 1vw);;
+}
+.resumate-2 {
+    width: 15%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 5%;
+    padding: 2%;
+    float: right;
+}
+.resumate-2 h1{
+    color: #2c4fe1;
+    font-size: calc(2rem + 1vw);;
+}
+
+.resumate-3 {
+    width: 15%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 5%;
+    padding: 2%;
+    float: right;
+}
+.resumate-3 h1{
+    color: #2c4fe1;
+    font-size: calc(2rem + 1vw);;
+}
+
+.info-board {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 15%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 2%;
+    float: right;
+}
+
+.testout {
+    display: flex;
+}
+
+
+.table-list {
+    margin-top: 2%;
+    margin-left: 5%;
+    border-collapse: collapse;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    border-radius: 15px;
+    float: left;
+}
+.table-list td {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+    font-size: calc(0.3rem + 1vw);
+    font-weight: 500;
+}
+.table-list th {
+    padding: 15px;
+    font-size: calc(0.5rem + 1vw);
+    font-weight: 700;
+}
+
+.button-bottom {
+    margin-bottom: 2%;
+}
+
+.button-bottom button {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: calc(4.4rem + 1vw);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: calc(0.2rem + 1vw);
+    font-weight: 700;
+}
+.button-bottom #add {
+    background-color: #20bf55;
+}
+.button-bottom #edit {
+    background-color: #2c4fe1;
+}
+.button-bottom #delete {
+    background-color: #e12c2c;
+}
+
+
+
+.menu ul {
+    margin-top: 30%;
+}
+.menu h1 {
+    font-size: calc(0.3em + 1vw);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5%;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: calc(0.5em + 1vw);
+    transition: background-color 250ms, color 250ms ease-out 100ms;
+}
+li #blue {
+    display: none;
+    visibility: hidden;
+}
+li:hover {
+    background-color: white;
+    transition: background-color 500ms, color 500ms ease-out 100ms;
+}
+li:hover #blue{
+    visibility: visible;
+    display: inline-block;
+    transition: all 500ms ease-out 100ms;
+}
+.menu:hover li:hover h4 {
+    color: rgb(44, 79, 225);
+}
+li:hover #white{
+    visibility: hidden;
+    display: none;
+    transition: all 500ms ease-out 100ms;
+}
+.menu h4 {
+    visibility: hidden;
+    display: inherit;
+    color: rgb(44, 79, 225);
+}
+.menu:hover h4{
+    visibility: visible;
+    color: white;
+    transition: all 300ms ease-out 300ms;
+}
+.menu{
+    background: rgb(44, 79, 225);
+    position: fixed;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    color: #fff;
+    box-shadow: 10px 10px 50px 0px rgba(44,79,255,0.9);
+    height: 100%;
+    width: 5%;
+}
+
+.menu:hover{
+    width: 13%;
+    transition: all 0.5s ease;
+}
+
+.left {
+    background-color: rgb(44, 79, 225);
+    float: left;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.right {
+    background-color: whitesmoke;
+    float: right;
+    width: 95%;
+    height: 100%;
+}
+.body {
+    position: relative;
+    z-index: 1;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}

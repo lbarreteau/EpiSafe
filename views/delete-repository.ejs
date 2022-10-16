@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Getting started</title>
+		<link href="/public/css/delete-repository.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="/public/assets/logo.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+	</head>
+<body>
+	<div class="left">
+		<!--Top menu -->
+		<div class="menu">
+			<h1>EpiSafe</h1>
+			<ul>
+				<li><img class="icon-menu" id="white" src="/public/assets/menu/home-white.png" alt="logo" width="30" height="30"><img class="icon-menu" id="blue" src="/public/assets/menu/home-blue.png" alt="logo" width="30" height="30"><h4>Accueil</h4></li>
+				<li><img class="icon-menu" id="white" src="/public/assets/menu/setting-white.png" alt="logo" width="30" height="30"><img class="icon-menu" id="blue" src="/public/assets/menu/setting-blue.png" alt="logo" width="30" height="30"><h4>Paramètres</h4></li>
+				<li><img class="icon-menu" id="white" src="/public/assets/menu/about-white.png" alt="logo" width="30" height="30"><img class="icon-menu" id="blue" src="/public/assets/menu/about-blue.png" alt="logo" width="30" height="30"><h4>À propos</h4></li>
+			</div>
+	</div>
+	<div class="right">
+		<div class="content">
+			<div class="header">
+				<h1>Supprimer un répertoire</h1>
+			</div>
+			<div class="form-content">
+				<div class="aa">
+					<form action="/delete-repository" method="POST">
+						<select name="repository" id="repository">
+							<% repo.forEach(repo => { %>
+								<% for (let i = 1; i !== repo.length; i++) { %>
+									<option value="<%= repo[i].name %>"><%= repo[i].name %></option>
+								<% } %>
+							<% }); %>
+						</select>
+						<input type="submit" value="Supprimer">
+					</form>
+				</div>
+				<div class="illustration">
+					<img src="/public/assets/add-repository/illustration.png" alt="logo">
+				</div>
+			</div>
+	</div>
+</body>
+</html>
