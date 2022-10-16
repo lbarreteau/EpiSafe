@@ -25,6 +25,7 @@
 			<div class="form-content">
 				<div class="aa">
 					<form action="/delete-repository" method="POST">
+						<p>Quel répertoire voulez-vous supprimer ?</p>
 						<select name="repository" id="repository">
 							<% repo.forEach(repo => { %>
 								<% for (let i = 1; i !== repo.length; i++) { %>
@@ -36,7 +37,7 @@
 					</form>
 				</div>
 				<div class="illustration">
-					<img src="/public/assets/add-repository/illustration.png" alt="logo">
+					<img src="/public/assets/delete-repository/illustration.png" alt="logo">
 				</div>
 			</div>
 	</div>
